@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/dfcaaea056.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+
+  <div class="container">
+    <h1 class="display-1 text-center">Part 1</h1>
+    <h3>Billing Address</h3>
+    <label for="fullname">Full name</label>
+    <input class="form-control" placeholder="Full Name" type="text" name="" id="fullname">
+    <br>
+    <label for="basic-addon1">Username</label>
+    <!-- Usename -->
+    <div class="input-group mb-3">    
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input class="form-control" placeholder="you@example.com" type="email" name="" id="email">
+    <br>
+    <!-- Address -->
+    <label for="add">Address</label>
+    <input class="form-control" placeholder="1234 Market St." type="text" name="" id="add">
+    <br>
+    <label for="add2">Address <p class="text-muted d-inline">(Optional)</p></label>
+    <input class="form-control" placeholder="Apartment or Suite" type="text" name="" id="add2">
+    <br>
+    <!-- Special Notes -->
+    <label for="spe">Special Notes <p class="text-muted d-inline">(Optional)</p></label>
+    <textarea class="form-control"
+    name="" id="spe" cols="30" rows="3"></textarea>
+    <p class="text-muted">Include any special requests you have for us</p>
+<!-- checkbox -->
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck1">
+      <label class="custom-control-label" for="customCheck1">Shipping address is same as billing</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck2">
+      <label class="custom-control-label" for="customCheck2">Save my info for next time</label>
+    </div>
+    <hr>
+    <h3>Shipping Options</h3>
+    <!-- Radio -->
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio1">Same Day Shipping</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">Next day shipping</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio3">3-5 Days Shipping</label>
+    </div>
+    <br>
+    <!-- Button -->
+
+    <button type="button" class="btn btn-primary btn-block">Proceed to Checkout</button>
+</div>
+
+    <!-- Part 2 -->
+    <div class="container  ">
+    <h1 class="display-1 text-center">Part 2</h1>
+    <div class="container border border-dark" style="max-width: 400px;">
+      <h3 class="text-center">Sign In</h3>
+      
+      <input class="form-control" placeholder="Email" type="email" name="" id="email2">
+      <br>
+      
+      <input class="form-control" placeholder="Password" type="email" name="" id="pass">
+      <br>
+
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck4">
+        <label class="custom-control-label" for="customCheck4">Remember Me</label>
+        <button type="button" class="btn btn-info btn-block">Proceed to Checkout</button>
+        <p class="text-center">Not a member? <a href="#">Register</a></p>
+      </div>
+
+    </div>
+
+   
+    </div>
+
+
+    
+  </div>
+    
+
+    
+    
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
